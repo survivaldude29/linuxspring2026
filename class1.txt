@@ -132,6 +132,7 @@ std::transform(greeting.begin(), greeting.end(), greeting.begin(), ::toupper);
 std::cout << greeting << std::endl;
 return 0;
 }
+
 Compile and run as before:
 g++ hello.cpp -o hello
 ./hello Alice --capitalize
@@ -155,6 +156,7 @@ Options/Flags: --capitalize in ./hello Alice --capitalize is an optional flag th
 Understanding this structure is fundamental to understanding how to interact effectively with a Unix-like shell, and your C++ program serves as a wonderful hands-on example to illustrate these concepts.
 # Basically that's it that's whole Linux programming in essence :)
 I am joking, but it's no far from the truth.
+
 So for the rest of semester we are going to explore and practice most commands(programs) and patterns which you most likely you are going to encounter in future jobs.
 => Let's start with basics
 Most useful commands is about a navigation:
