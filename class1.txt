@@ -77,11 +77,14 @@ Edit the File: Open the file using a text editor like nano or vim.
 For this example, we'll use nano:
 nano hello.cpp
 Add Code: Enter the following C++ code to print "Hello, world!":
+
 #include <iostream>
 int main() {
 std::cout << "Hello, world!" << std::endl;
 return 0;
 }
+
+
 Save the file and exit the editor.
 Compile the Code: Compile the C++ code using g++:
 g++ hello.cpp -o hello
